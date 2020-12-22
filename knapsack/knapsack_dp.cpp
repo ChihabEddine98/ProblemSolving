@@ -30,6 +30,6 @@ int main() {
    }
    cout << "Enter the capacity of knapsack";
    cin >> W;
-   cout <<  knapSack(W, w, v, n);
+   cout << "Total value : " << knapSack(W, w, v, n);
    return 0;
 }
