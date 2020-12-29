@@ -5,3 +5,9 @@
              output : [(x,y)] a list of size k for the nearest to origin 
 */
 /*----------------------------------------------------------------------*/
+
+
+int main()
+{
+    return 0;
+}
