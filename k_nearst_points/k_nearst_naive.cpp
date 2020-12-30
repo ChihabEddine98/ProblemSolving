@@ -32,7 +32,7 @@ bool comparePoints(Point &p1, Point &p2){
    float dist2 = (p2.x * p2.x) + (p2.y * p2.y);
    return dist1 < dist2;
 }
-void closestKPoints(Point points[], int n, int k){
+void kNearestPoints(Point points[], int n, int k){
    sort(points, points+n, comparePoints);
    for(int i = 0; i<k; i++){
       points[i].display();
@@ -43,5 +43,5 @@ int main() {
    Point points[] = {{3, 3},{5, -1},{-2, 4},{6,6},{1,0},{-1,0}};
    int n = sizeof(points)/sizeof(points[0]);
    int k = 2;
-   closestKPoints(points, n, k);
+   kNearestPoints(points, n, k);
 }
