@@ -29,6 +29,9 @@ def merge_k_lists(lists : List[List[int]]) -> List[int] :
 # TODO -- 
 # using a min_heap in O(n) time and O(1) space
 
+
+# TODO --
+# Turn it to O(n) instead of O(n**2)
 def sql_sum_gBy(T) :
     return [(x,sum(T[i][2])) for i in range(len(T)) for x in set(map(lambda x:x[0], T)) if x == T[i][2]]
 
