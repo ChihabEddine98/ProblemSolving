@@ -2,6 +2,7 @@
 using namespace std;
 
 
+// Dynamic Programming version of knapsack problem in O(n^2)
 int knapSack(int W, int w[], int v[], int n) {
    int i, wt;
    int K[n + 1][W + 1];
