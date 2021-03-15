@@ -1,3 +1,7 @@
+/*
+* Knapsack problem solved with dynamic programming approach 
+*
+*/
 #include <iostream>
 using namespace std;
 
