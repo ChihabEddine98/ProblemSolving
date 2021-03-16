@@ -1,4 +1,4 @@
-/* A Dynamic programming version for Knapsack problem */
+/* A basic (naif) version for Knapsack problem */
 #define _GLIBCXX_USE_CXX11_ABI 0
 
 #include <stdlib.h> 
