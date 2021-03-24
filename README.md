@@ -1,2 +1,2 @@
 # ProblemSolving
-My solutions for popular problems of competitive programming 
+My solutions for popular problems for competitive programming 
